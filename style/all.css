@@ -1,7 +1,11 @@
 .banner {
-   background: url('../projeto/images/banner/banner.png') center/cover no-repeat;
+   background-image: url('../projeto/images/banner/banner.png');
   height: 400px;
+  width: 100%;
   color: rgb(255, 255, 255);
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-size: cover;
 }
 
 .text{
@@ -61,4 +65,7 @@
 }
 
 
-
+#adote{
+  margin-bottom: 10px;
+  height: 400px;
+}
